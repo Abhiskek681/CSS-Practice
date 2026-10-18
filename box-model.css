@@ -1,0 +1,57 @@
+* {
+  font-family: cursive;
+  margin: 0px;
+}
+
+.container {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 60px;
+  margin: 60px auto;
+  height: fit-content;
+  width: 400px;
+  box-shadow: 40px 30px 100px rgb(62, 61, 61);
+}
+
+.inner-con {
+  background-color: rgb(114, 99, 208);
+  width: max-content;
+  border-radius: 30px;
+  padding: 5px 20px 5px 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.plan {
+  font-weight: bolder;
+}
+
+.container button {
+  width: 100%;
+  padding: 20px;
+  background: #010101;
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  transition: 0.7s all ease;
+}
+
+.container button:hover {
+  background: #f7f5f5;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.money {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.lists {
+  font-size: 25px;
+  padding: 0 20px;
+  margin: 10px 0;
+}
